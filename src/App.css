@@ -1,0 +1,13 @@
+body {
+  font-family: sans-serif;
+}
+.item {
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #ddd;
+  display: table;
+}
+.item.active {
+  background: green;
+  color: white;
+}
