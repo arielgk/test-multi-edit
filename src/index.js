@@ -10,11 +10,13 @@ class ItemEditor extends React.Component {
     this.changeProperty = this.changeProperty.bind(this);
   }
 
+
   changeProperty(ev) {
     this.setState({
       [ev.target.name]: ev.target.value
     });
     this.props.updateItem(this.props.item, ev.target);
+    console.log('test');
   }
 
   render() {
