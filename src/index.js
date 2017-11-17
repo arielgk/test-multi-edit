@@ -16,7 +16,6 @@ class ItemEditor extends React.Component {
       [ev.target.name]: ev.target.value
     });
     this.props.updateItem(this.props.item, ev.target);
-    console.log('test');
   }
 
   render() {
